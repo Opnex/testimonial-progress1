@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #fff ;
+    background-color: hsl(214, 17%, 92%);
 }
 
 
@@ -15,43 +15,62 @@ body {
     display: flex;
 }
 .four-con {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     width: 80%;
 }
 .kira-con {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     width: 20%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    box-shadow:  7px 7px 15px rgb(0, 0, 0, 0.2);
 }
+.kira-tex h3 {
+    font-size: 5px;
+}
+.kira-text p {
+    font-size: 10px;
+} 
+
 
 .dan-jona {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     display: flex;
 }
 .jean-pat {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
     display: flex;
 }
 .dan-con {
-    border: 2px solid green;
-    background-color: rgb(123, 14, 225);
+    /* border: 2px solid green; */
+    background-color: rgb(115, 63, 200);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 1%;
+    box-shadow:  7px 7px 15px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
     width: 60%;
     padding: 20px;
+    margin: 10px;
     color: #fff;
 }
-.dan-text h4 {
-    font-size: 17px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.text h4 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
-.dan-text p {
-    font-size: 15px;
+.text p {
+    font-size: 13px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.dan-img {
+.img {
     display: flex;
     gap: 1rem;
 }
@@ -60,11 +79,51 @@ body {
     margin-top: 10px;
 }
 
-.dan {
+.pic {
     border-radius: 50px ;
 }
 .jona-con {
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     width: 40%;
+    background-color: rgb(73, 85, 107);
+    box-shadow:  7px 7px 15px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
+}
+.jona-con h4 {
+    font-size: 20px;
+}
+.jona-con p {
+    font-size: 17px;
+} 
+
+.jean-con {
+    /* border: 2px solid gold; */
+    width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow:  7px 7px 15px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: black;
+}
+.jean-con h4 {
+    font-size: 25px;
+}
+.jean-con p {
+    font-size: 17px;
+} 
+
+.pat-con {
+    /* border: 2px solid greenyellow; */
+    width: 60%;
+    background-color: rgb(25, 31, 45);
+    box-shadow:  7px 7px 15px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: #fff;
 }
 
