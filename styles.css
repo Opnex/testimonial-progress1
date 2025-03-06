@@ -9,7 +9,7 @@ body {
 
 
 .main-section {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     margin: 30px auto;
     display: flex;
@@ -34,7 +34,6 @@ body {
 .kira-text p {
     font-size: 10px;
 } 
-
 
 .dan-jona {
     /* border: 2px solid blue; */
@@ -126,4 +125,52 @@ body {
     margin: 10px;
     color: #fff;
 }
+.pat-con h4 {
+    font-size: 15px;
+}
+.pat-con p {
+    font-size: 15px;
+} 
+
+
+@media screen and (max-width:768px) {
+    .main-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .dan-jona {
+        /* border: 2px solid blue; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .jean-pat {
+        /* border: 2px solid green; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .dan-con {
+        width: 100%;
+        margin-left: 13%;
+    }
+    .jona-con {
+        width: 100%;
+        margin-left: 13%;
+    }
+    .jean-con {
+        width: 100%;
+        margin-left: 13%;
+    }
+    .pat-con {
+        width: 100%;
+        margin-left: 13%;
+    }
+    .kira-con {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
 
