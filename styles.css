@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff ;
+}
+
+
+.main-section {
+    border: 2px solid red;
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+}
+.four-con {
+    border: 2px solid yellow;
+    width: 80%;
+}
+.kira-con {
+    border: 2px solid purple;
+    width: 20%;
+}
+
+.dan-jona {
+    border: 2px solid blue;
+    width: 100%;
+    display: flex;
+}
+.jean-pat {
+    border: 2px solid green;
+    width: 100%;
+    display: flex;
+}
+.dan-con {
+    border: 2px solid green;
+    background-color: rgb(123, 14, 225);
+    width: 60%;
+    padding: 20px;
+    color: #fff;
+}
+.dan-text h4 {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dan-text p {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dan-img {
+    display: flex;
+    gap: 1rem;
+}
+.name-text {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.dan {
+    border-radius: 50px ;
+}
+.jona-con {
+    border: 2px solid pink;
+    width: 40%;
+}
+
